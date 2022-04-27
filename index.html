@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Minh Phạm</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="header-left-side">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <input type="text" placeholder="Tìm kiếm trên Facebook"/>
+      </div>
+      <div id="header-center-side">
+        <ul>
+          <li><ion-icon name="home"></ion-icon></li>
+          <li><ion-icon name="play-circle"></ion-icon></li>
+          <li><ion-icon name="storefront"></ion-icon></li>
+          <li><ion-icon name="people-circle"></ion-icon></li>
+          <li><ion-icon name="game-controller"></ion-icon></li>
+        </ul>
+      </div>
+      <div id="header-right-side">
+        <ion-icon name="grid"></ion-icon>
+        <ion-icon name="logo-wechat"></ion-icon>
+        <ion-icon name="notifications"></ion-icon>
+        <ion-icon name="caret-down-outline"></ion-icon>
+      </div>
+    </header>
+    <main>
+      <section id="profile-above" class="cbg">
+        <div class="profile-main">
+          <div id="background-img"></div>
+          <div id="profile-preview" class="profile-content">
+            <div id="profile-preview-above">
+              <div id="avatar-wrapper">
+                <img src="assets/avatar.jpg" width="160" height="160"/>
+              </div>
+              <div id="profile-preview-above-detail">
+                <h1>Minh Phạm</h1>
+                <p>282 bạn bè</p>
+                <div id="profile-preview-above-detail-bottom">
+                  <ul>
+                    <li><img src="./assets/avatar.jpg" width="35" height="35"/></li>
+                    <li><img src="./assets/avatar.jpg" width="35" height="35"/></li>
+                    <li><img src="./assets/avatar.jpg" width="35" height="35"/></li>
+                    <li><img src="./assets/avatar.jpg" width="35" height="35"/></li>
+                    <li><img src="./assets/avatar.jpg" width="35" height="35"/></li>
+                    <li><img src="./assets/avatar.jpg" width="35" height="35"/></li>
+                    <li><img src="./assets/avatar.jpg" width="35" height="35"/></li>
+                  </ul>
+                  <div>
+                    <button id="add-story" class="profile-above-buttons fst">Thêm vào tin</button>
+                    <button id="edit-profile" class="profile-above-buttons fst">Chỉnh sửa trang cá nhân</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="profile-preview-below">
+              <ul>
+                <li class="fst">Bài viết</li>
+                <li class="fst">Giới thiệu</li>
+                <li class="fst">Bạn bè</li>
+                <li class="fst">Ảnh</li>
+                <li class="fst">Video</li>
+                <li class="fst">Check in</li>
+                <li class="fst">Xem thêm</li>
+              </ul>
+              <button class="profile-above-buttons">
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="profile-below">
+        <div id="profile-below-main" class="profile-main profile-content">
+          <aside id="profile-intro" class="profile-below-part cbg">
+            <div id="quick-intro" class="profile-intro-part">
+              <h2 class="fst">Giới thiệu</h2>
+              <p class="fst">Life gives us bitterness, try to make it sweet<br>Always peace.</p>
+              <button class="fst">Chỉnh sửa tiểu sử</button>
+            </div>
+            <div id="more-intro" class="profile-intro-part">
+              <ul>
+                <li class="fst">Học Software Engineering tại Electric Power University (EPU) - EVN</li>
+                <li class="fst">Đã học tại THPT Lê Quý Đôn - Đống Đa</li>
+                <li class="fst">Sống tại Hà Nội</li>
+                <li class="fst">Độc thân</li>
+                <li class="fst">Tham gia vào Tháng 9 năm 2014</li>
+                <li class="fst">Có 48 người theo dõi</li>
+              </ul>
+              <button class="fst">Chỉnh sửa chi tiết</button>
+            </div>
+            <div id="hobbies" class="profile-intro-part">
+              <div id="hobbies-wrapper">
+                <span class="fst">Học viết mã</span>
+                <span class="fst">Trò chơi VR/AR</span>
+                <span class="fst">Nghe nhạc</span>
+              </div>
+              <button class="fst">Chỉnh sửa sở thích</button>
+            </div>
+          </aside>
+          <aside id="profile-articles" class="profile-below-part">
+            <div id="profile-make-status" class="cbg">
+              <div class="profile-make-status-part">
+                <img src="./assets/avatar.jpg" width="38" height="38"/>
+                <input type="text" placeholder="Bạn đang nghĩ gì"/>
+              </div>
+              <div class="profile-make-status-part">
+                <span class="fst">Video trực tiếp</span>
+                <span class="fst">Ảnh/video</span>
+                <span class="fst">Sự kiện trong đời</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
